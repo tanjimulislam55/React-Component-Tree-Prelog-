@@ -1,8 +1,8 @@
 function Banner() {
     return (
-        <div class="container">
+        <div className="container">
             {/* <!-- banner --> */}
-            <div class="banner pad">
+            <div className="banner pad">
                 {/* <!-- heading --> */}
                 <h2>This is Place of<br/><span>Secure. &amp; Peace.</span></h2>
                 {/* <!-- paragraph --> */}

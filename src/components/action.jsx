@@ -1,8 +1,8 @@
 function Action() {
     return (
-        <div class="cta">
-            <div class="container">
-                <div class="cta-content">
+        <div className="cta">
+            <div className="container">
+                <div className="cta-content">
                     {/* <!-- heading --> */}
                     <h3>Don't Feel Insecure with <span>PRELOG</span></h3>
                     {/* <!-- paragraph --> */}

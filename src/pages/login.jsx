@@ -6,7 +6,7 @@ import Main from '../components/main/login'
 export default class LoginPage extends React.Component {
     render() {
         return (
-            <div class='wrapper'>
+            <div className='wrapper'>
                 <Header />
                 <Main />
                 <Footer />

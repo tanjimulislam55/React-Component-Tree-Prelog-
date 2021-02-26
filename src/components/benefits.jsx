@@ -1,50 +1,50 @@
 function Benefits() {
     return (
-        <div class="benefits pad">
-            <div class="container">
-                <div class="default-heading">
+        <div className="benefits pad">
+            <div className="container">
+                <div className="default-heading">
                     {/* <!-- heading --> */}
                     <h2>Our Benefits</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                <div className="row">
+                    <div className="col-md-3 col-sm-6">
                         {/* <!-- benefits item --> */}
-                        <div class="benefits-item">
+                        <div className="benefits-item">
                             {/* <!-- icon --> */}
-                            <i class="fa fa-desktop"></i>
+                            <i className="fa fa-desktop"></i>
                             {/* <!-- heading --> */}
                             <h3>Desktop Edge</h3>
                             {/* <!-- paragraph --> */}
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div className="col-md-3 col-sm-6">
                         {/* <!-- benefits item --> */}
-                        <div class="benefits-item">
+                        <div className="benefits-item">
                             {/* <!-- icon --> */}
-                            <i class="fa fa-paper-plane"></i>
+                            <i className="fa fa-paper-plane"></i>
                             {/* <!-- heading --> */}
                             <h3>Carrier Desk</h3>
                             {/* <!-- paragraph --> */}
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div className="col-md-3 col-sm-6">
                         {/* <!-- benefits item --> */}
-                        <div class="benefits-item">
+                        <div className="benefits-item">
                             {/* <!-- icon --> */}
-                            <i class="fa fa-briefcase"></i>
+                            <i className="fa fa-briefcase"></i>
                             {/* <!-- heading --> */}
                             <h3>Stock Exchange</h3>
                             {/* <!-- paragraph --> */}
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div className="col-md-3 col-sm-6">
                         {/* <!-- benefits item --> */}
-                        <div class="benefits-item">
+                        <div className="benefits-item">
                             {/* <!-- icon --> */}
-                            <i class="fa fa-envelope"></i>
+                            <i className="fa fa-envelope"></i>
                             {/* <!-- heading --> */}
                             <h3>Packaging Mart</h3>
                             {/* <!-- paragraph --> */}
