@@ -8,11 +8,13 @@ function Hero() {
                     {/* <!-- paragraph --> */}
                     <p>Secure Everything with prelog.</p>
                     {/* <!-- button --> */}
-                    <a href="#" classNameName="btn btn-warning">Explore Things</a>
+                    <a href="#" classNameName="btn btn-warning">
+                        Explore Things
+                    </a>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Hero
+export default Hero;

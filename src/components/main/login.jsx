@@ -1,33 +1,45 @@
 function Main() {
     return (
-        <div class="main-content">
-            <div class="container">
+        <div className="main-content">
+            <div className="container">
                 {/* <!-- login area --> */}
-                <div class="login-area">
+                <div className="login-area">
                     {/* <!-- heading --> */}
                     <h3>Sign In, To Your Account</h3>
                     {/* <!-- paragraph --> */}
                     <p>Neque porro quisquam est qui dolorem ipsum quia dolor!!!</p>
                     <form role="form" id="login-form">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
+                        <div className="form-group">
+                            <label htmlFor="exampleInputEmail1">Email address</label>
+                            <input
+                                type="email"
+                                className="form-control"
+                                id="exampleInputEmail1"
+                                placeholder="Enter email"
+                            />
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                        <div className="form-group">
+                            <label htmlFor="exampleInputPassword1">Password</label>
+                            <input
+                                type="password"
+                                className="form-control"
+                                id="exampleInputPassword1"
+                                placeholder="Password"
+                            />
                         </div>
-                        <div class="checkbox form-group">
+                        <div className="checkbox form-group">
                             <label>
-                                <input type="checkbox"/> Remember me
+                                <input type="checkbox" /> Remember me
                             </label>
                         </div>
-                        <button type="submit" class="btn btn-warning">Login</button>
+                        <button type="submit" className="btn btn-warning">
+                            Login
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Main
+export default Main;

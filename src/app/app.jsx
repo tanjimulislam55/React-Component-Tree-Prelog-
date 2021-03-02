@@ -1,17 +1,15 @@
-import React, {Fragment} from 'react'
-import { Helmet } from 'react-helmet'
-import AppRouter from './router'
-import '../assets/css/style.css'
-import '../assets/css/bootstrap.css'
-import '../assets/css/bootstrap.min.css' 
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import '../assets/css/bootstrap.css';
+import '../assets/css/bootstrap.min.css';
+import '../assets/css/style.css';
+import AppRouter from './router';
 
 class App extends React.Component {
     render() {
         return (
-            <Fragment>
-
+            <>
                 <Helmet>
-
                     <meta charset="utf-8" />
                     <title>PRELOG - Powered By IndioWeb.in</title>
                     <meta name="description" content="Your description" />
@@ -19,16 +17,12 @@ class App extends React.Component {
                     <meta name="author" content="ResponsiveWebInc" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                     <link rel="shortcut icon" href="#" />
-                    
                 </Helmet>
 
                 <AppRouter />
-
-            </Fragment>
-    
-        )
-
+            </>
+        );
     }
 }
 
-export default App
+export default App;

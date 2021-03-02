@@ -1,19 +1,18 @@
-import {Router} from '@reach/router'
-
-import HomePage from '../pages'
-import LoginPage from '../pages/login'
-import RegistrationPage from '../pages/registration'
-import NotFoundPage from '../pages/404'
+import { Router } from '@reach/router';
+import HomePage from '../pages';
+import NotFoundPage from '../pages/404';
+import LoginPage from '../pages/login';
+import RegistrationPage from '../pages/registration';
 
 function AppRouter() {
     return (
         <Router>
-            <HomePage path='/' />
-            <LoginPage path='/login' />
-            <RegistrationPage path='/registration' />
+            <HomePage path="/" />
+            <LoginPage path="/login" />
+            <RegistrationPage path="/registration" />
             <NotFoundPage default />
         </Router>
-    )
+    );
 }
 
-export default AppRouter
+export default AppRouter;
